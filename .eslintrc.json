@@ -1,0 +1,10 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "eol-last": ["error", "always"],
+    "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }]
+  }
+}
